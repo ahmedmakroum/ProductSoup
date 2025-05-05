@@ -105,7 +105,7 @@ def scrape_tripadvisor_moroccan_restaurants():
         df.to_csv("moroccan_restaurants.csv", index=False)
         print(" Saved to moroccan_restaurants.csv")
     else:
-        print(" No data was collected!")
+        print(" No data was collected og")
 
 if __name__ == "__main__":
     scrape_tripadvisor_moroccan_restaurants()
